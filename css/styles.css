@@ -274,8 +274,6 @@ header {
 .cust-item {
 	width: 168px;
 	height: 88px;
-	border: 1px solid var(--helper-text);
-	border-radius: 4px;
 }
 .list-cust {
 	display: flex;
@@ -289,9 +287,11 @@ header {
 	align-items: center;
 	width: 100%;
 	height: 100%;
+	border: 1px solid var(--helper-text);
+	border-radius: 4px;
 }
-.cust-item:hover,
-.cust-item:focus {
+.cust-icon:hover,
+.cust-icon:focus {
 	border-color: var(--ocean);
 }
 .cust-icon:hover .cust-logo,
